@@ -1,26 +1,25 @@
 
-body{background: #eee;}
+
+body{
+  background: #eee;
+}
+
 
 .header{
-  background: #e7e7e7; 
+  background: #0C2D48; 
   border-bottom: 1px solid #afaeae;
 }
 
 .header__logo{
-  color: #292626; 
+  color: #f1f1f1;
+  text-decoration: none;
   float: left; 
   display: block; 
   padding: 20px;
-}
-
-.header__menu{
-  float: right; 
-  margin: 0; 
-  padding: 0;
+  font-size: large;
 }
 
 .header__icon-bar{
-  display: block; 
   float: right; 
   padding: 20px; 
   display: none;
@@ -30,25 +29,66 @@ body{background: #eee;}
   display: block; 
   height: 3px; 
   width: 30px; 
-  background: #292626; 
+  background: #f1f1f1; 
   margin-bottom: 5px;
 }
+
+.header__menu{
+  float: right; 
+  margin: 0; 
+  padding: 0;
+}
+
+.header__menu__animate{
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 
 .header__menu__item{
   display: inline-block;
 }
 
 .header__menu__item a{
-  color: #292626;
+  color: #f1f1f1;
+  text-decoration: none;
   display: block; 
   padding: 20px;
 }
 
 .header__menu__item a:hover{
-  color: #2d2dec;
+  background: #f1f1f1;
 }
 
 
+
+
+/* ----TABLET---- */
+@media (max-width: 998px){
+
+}
+
+
+/* ----SMARTPHONE---- */
+@media (max-width: 767px){
+  
+  .header__icon-bar{
+    display: block;
+  }
+
+  .header__menu{
+    display: grid;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .header__menu--open{
+    height: 300px;
+    overflow: auto;
+  }
+
+}
 
 
 
