@@ -1,4 +1,5 @@
-html,body{height: 100%;}
+html,
+body{height: 100%;}
 
 body{
   background: #e2e2e2;
@@ -151,6 +152,52 @@ body{
 }
 
 
+/* ----BANNER---- */
+.banner{
+  background: #f1f1f1;
+  height: 37%;
+  margin: 0 20px;
+  border: 1px solid #0f3758;
+  border-radius: 5px;
+}
+
+.banner__image{
+  width: 30%;
+  float: left;
+  height: 100%;
+  background-image: url(https://source.unsplash.com/category/building);
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+}
+
+.banner__copy{
+  width: 70%;
+  float: left;
+  height: 100%;
+  display: table;
+}
+
+.banner__copy__text{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.banner__copy__text h3{
+  margin-bottom: 0;
+}
+
+.banner__copy__text h4{
+  margin:0px auto 5px auto;
+  color: #0f3758;
+}
+
+.banner__copy__text p{
+  line-height: 22px;
+  color: #3f4a53;
+}
 
 
 
@@ -158,6 +205,7 @@ body{
 
 
 
+/* ----MEDIAQUERY---- */
 /* ----TABLET---- */
 @media (max-width: 998px){
 
@@ -199,6 +247,19 @@ body{
     width: 90%;
     margin: 5px 5%;
   }
+
+  /* ----BANNER---- */
+  .banner{
+    height: 87%;
+  }
+
+  .banner__image,
+  .banner__copy{
+    width: 100%;
+    height: 50%;
+  }
+
+
 }
 
 
