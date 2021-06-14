@@ -126,9 +126,8 @@ body{
 
 .card{
   border: 1px solid #0f3758;
-  border-radius: 5px;
   background: #f1f1f1;
-  width: 30%;
+  width: 22%;
   margin: 0 1.5%;
   float: left;
 }
@@ -155,10 +154,11 @@ body{
 /* ----BANNER---- */
 .banner{
   background: #f1f1f1;
-  height: 37%;
-  margin: 0 20px;
   border: 1px solid #0f3758;
-  border-radius: 5px;
+  
+  height: 50%;
+  margin: 5px 2%;
+  
 }
 
 .banner__image{
@@ -177,12 +177,13 @@ body{
   float: left;
   height: 100%;
   display: table;
+
 }
 
 .banner__copy__text{
   display: table-cell;
   vertical-align: middle;
-  padding: 30px;
+  padding: 0 20px;
 }
 
 .banner__copy__text h3{
@@ -244,13 +245,14 @@ body{
 
   /* ----CARDS---- */
   .card{
-    width: 90%;
-    margin: 5px 5%;
+    width: 95%;
+    margin: 5px 10px;
   }
 
   /* ----BANNER---- */
   .banner{
-    height: 87%;
+    width: 95%;
+    height: 100%;
   }
 
   .banner__image,
