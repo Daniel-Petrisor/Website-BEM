@@ -124,6 +124,22 @@ body{
   margin: 40px auto;
 }
 
+.cards__text{
+  text-align: center;
+  margin: 5rem 0 3rem 0;
+}
+
+.cards__title{
+  font-size: 2.0rem;
+  margin-bottom: 0;
+}
+
+.cards__subtitle{
+  font-size: 1.2rem;
+  color: #3f4a53;
+  margin-bottom: 40px;
+}
+
 .card{
   border: 1px solid #0f3758;
   background: #f1f1f1;
@@ -150,6 +166,40 @@ body{
   line-height: 22px;
   color: #3f4a53;
 }
+
+/* ----SERVICES---- */
+.services{
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.services__text{
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  line-height: 1.35; 
+  margin: -20px 25%;
+}
+
+.services__button{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding: 10px 30px;
+  margin: 0 20px;
+  background: #9b1426;
+  color: #f1f1f1;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.services__button:hover{
+  display: inline-block;
+  background: #1b649f;
+}
+
 
 
 /* ----BANNER---- */
@@ -266,6 +316,10 @@ body{
   }
 
   /* ----CARDS---- */
+  .cards__text{
+    padding: 0 10px;
+  }
+
   .cards{
     margin: 5px 0;
   }
@@ -273,6 +327,11 @@ body{
   .card{
     width: 95%;
     margin: 5px 10px;
+  }
+
+  /* ----SERVICES---- */
+  .services__text{ 
+    margin: 0 0 0 6%;
   }
 
   /* ----BANNER---- */
